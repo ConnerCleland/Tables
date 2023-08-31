@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    </head>
+    <body>
+        <form method="" action="submit.html">
+            <table border="4" align="center" width="600" bgcolor="lightblue" cellspacing="6" cellpadding="7">
+                <td bgcolor="lightyellow" colspan="100" style="color: red;" align="center">Registration Form</td>
+                <tr>
+                    <th>Enter Name</th>
+                    <td><input type="text" name="fn" id="fn1" maxlength="12" title="Enter your First Name" placeholder="Enter your First Name" required/></td>
+                </tr>
+                <tr>
+                    <th>Enter your Password</th>
+                    <td><input type="password"/ title="Enter your Password" placeholder="Enter your Password" required></td>
+                </tr>
+                <tr>
+                    <th>Enter Address</th>
+                    <td><textarea cols="20" rows="8" title="Enter a Most Recent Address"     placeholder="Enter a Most Recent Address"></textarea> </td>
+                </tr>
+                <tr>
+                    <th>Select Game</th>
+                    <td>
+                        Hockey<input type="checkbox" name="x[]" value="h"/><br>
+                        Football<input type="checkbox" name="x[]" value="h1"/><br>
+                        Badminton<input type="checkbox" name="x[]" value="h2"/><br>
+                        Cricket<input type="checkbox" name="x[]" value="h3"/><br>
+                        Volleyball<input type="checkbox" name="x[]" value="h4"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Select your Gender</th>
+                    <td>
+                        Male<input type="radio" name="g" value="m"/>
+                        Female<input type="radio" name="g" value="f"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Select your age</th>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                <th>Select Photo</th>
+                <td><input type="file"/></td>
+                </tr>
+                <td colspan="2" align="center" > <input type="submit" value="Submit Form"/>
+                <input type="reset" value="Reset"/> 
+                <input type="button" value="Click Me!"/>
+                </td>
+
+
+            </table> 
+        </form>
+
+</body>
+</html>
